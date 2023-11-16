@@ -23,7 +23,9 @@ int main() {
 
     int row, column;
     int squaresRemaining = 9; 
+
     bool playerOne = 1;
+    int playerChoice;
 
 
 
@@ -32,13 +34,13 @@ int main() {
     while (squaresRemaining) {
         if (playerOne) {
             cout << "Player1's Turn: ";
+            cin >> playerChoice;
         }
         else {
             cout << "Player2's Turn: ";
+            cin >> playerChoice;
         }
         
-        grid(matrix)
+        grid(matrix);
     }
-
-    grid(matrix);
 }
